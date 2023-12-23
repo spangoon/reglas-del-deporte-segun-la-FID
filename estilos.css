@@ -1,0 +1,49 @@
+body {
+    background: url("Sin\ título.png");
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 26px;
+}
+
+.movertexto {
+    margin-left: 40px;
+}
+
+.recuadro {
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.recuadro img {
+    width: 100%;
+    height: auto;
+    border-radius: 13px;
+}
+
+/* Media Query para dispositivos con ancho máximo de 600px */
+@media only screen and (max-width: 600px) {
+    .recuadro {
+        width: 90%;
+    }
+
+    .movertexto {
+        margin-left: 0;
+    }
+}
